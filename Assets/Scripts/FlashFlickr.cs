@@ -24,12 +24,12 @@ public class FlashFlickr : MonoBehaviour
         {
             if (on == false)
             {
-                Rod.transform.localScale += new Vector3(0, 0, 5);
+                Rod.transform.localScale = new Vector3(0, 0, 7);
                 Flashlight.SetActive(true);
             }
             else
             {
-                Rod.transform.localScale -= new Vector3(0, 0, 5);
+                Rod.transform.localScale = new Vector3(0, 0, 2);
                 Flashlight.SetActive(false);
             }
             on = !on;
