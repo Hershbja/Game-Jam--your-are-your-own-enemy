@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.4862745, g: 0.69411767, b: 0.8117647, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.025
@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: aeab33f69c199e54794f516d31450ec4, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -2912,7 +2912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &542508512
 Transform:
   m_ObjectHideFlags: 0
@@ -4537,7 +4537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &874605736
 Transform:
   m_ObjectHideFlags: 0
@@ -5497,7 +5497,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!215 &1028513132
 ReflectionProbe:
   m_ObjectHideFlags: 0
@@ -7727,18 +7727,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6021413694723478944, guid: 00e4eb7ddd57f724a9ebaaa8c9c46053,
         type: 3}
+      propertyPath: m_LocalScale.z
+      value: 4.2967653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021413694723478944, guid: 00e4eb7ddd57f724a9ebaaa8c9c46053,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.090054
+      value: 33.98
       objectReference: {fileID: 0}
     - target: {fileID: 6021413694723478944, guid: 00e4eb7ddd57f724a9ebaaa8c9c46053,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.540049
+      value: -20.57
       objectReference: {fileID: 0}
     - target: {fileID: 6021413694723478944, guid: 00e4eb7ddd57f724a9ebaaa8c9c46053,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 65.00994
+      value: 65.478
       objectReference: {fileID: 0}
     - target: {fileID: 6021413694723478944, guid: 00e4eb7ddd57f724a9ebaaa8c9c46053,
         type: 3}
@@ -8783,17 +8788,17 @@ PrefabInstance:
     - target: {fileID: 4748892827223493147, guid: d1eda3f9338b1674685e803c99e16299,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.78
+      value: 21.780008
       objectReference: {fileID: 0}
     - target: {fileID: 4748892827223493147, guid: d1eda3f9338b1674685e803c99e16299,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.34
+      value: 2.3399997
       objectReference: {fileID: 0}
     - target: {fileID: 4748892827223493147, guid: d1eda3f9338b1674685e803c99e16299,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.729599
+      value: 15.48
       objectReference: {fileID: 0}
     - target: {fileID: 4748892827223493147, guid: d1eda3f9338b1674685e803c99e16299,
         type: 3}
@@ -9175,7 +9180,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1764214108
 Transform:
   m_ObjectHideFlags: 0
@@ -12092,7 +12097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &2114283754330233425
 Light:
   m_ObjectHideFlags: 0
