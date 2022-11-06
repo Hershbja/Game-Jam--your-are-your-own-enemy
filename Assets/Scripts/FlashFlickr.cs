@@ -9,7 +9,7 @@ public class FlashFlickr : MonoBehaviour
     private bool on = false;
     private GameObject Rod;
     private bool dead = false;
-    public float battery = 10f;
+    public float battery = 12f;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,13 +40,18 @@ public class FlashFlickr : MonoBehaviour
                 //Debug.Log("Flashlight Off");
             }
             on = !on;
+            //Collect Audio and play when player toggles flashlight
+            AudioSource audioData = GetComponent<AudioSource>();
+            audioData.Play(0);
 
         }
+        //Kill the battery slowly
         if (on && !dead)
         {
             Debug.Log(battery);
             battery -= Time.deltaTime;
             lightcomp.intensity = 15-15/battery;
+            //Battery is dead
             if(battery <= 0)
             {
                 dead = true;
