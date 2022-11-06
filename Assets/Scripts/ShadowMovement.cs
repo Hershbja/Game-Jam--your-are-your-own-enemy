@@ -34,8 +34,10 @@ namespace StarterAssets
         // Update is called once per frame
         void Update()
         {
+            transform.LookAt(PlayerObject.transform);
             _controller.Move(Player.buffer[0]);
             Player.buffer.RemoveAt(0);
         }
     }
+
 }
